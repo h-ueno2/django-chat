@@ -11,6 +11,12 @@ docker-compose build
 docker-compose up -d
 ```
 
+# Poetryを介してのmanage.pyの実行
+
+```shell
+docker-compose exec django poetry run python manage.py hogehoge
+```
+
 # 参考
 
 ## 環境構築
